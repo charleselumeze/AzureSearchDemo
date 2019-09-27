@@ -12,9 +12,9 @@ namespace CharlesAzureSearch.Models
         [System.ComponentModel.DataAnnotations.Key]
         [IsFilterable]
         public string Code { get; set; }
-        [IsFilterable, IsSortable, IsFacetable]
+        [IsFilterable, IsSortable, IsFacetable, IsSearchable]
         public string WeeklyRentPaidByHousehold { get; set; }
-        [IsFilterable, IsSortable, IsFacetable]
+        [IsFilterable, IsSortable, IsFacetable, IsSearchable]
         public string HouseholdsInRentedOccupiedPrivateDwellings { get; set; }
     }
 }

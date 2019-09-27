@@ -11,10 +11,10 @@ namespace CharlesAzureSearch
 {
     class Program
     {
-        private static readonly string azureSearchServiceName = "charlessearch";
-        private static readonly string adminApiKey = "0AC711DFC41ABFBC31DC30BC1B4818BE";
-        private static readonly string dataFileName = @"C:\Pluralsight\Tutorials Exercises\Azure Developer - AZ-203\Enabling Search ofTextual Content\weekly-rent-paid-by-household-2018-census-csv.csv";
-        private static readonly string indexName = "nzrentingstats";
+        private static readonly string azureSearchServiceName = "name";
+        private static readonly string adminApiKey = "key";
+        private static readonly string dataFileName = @"filepath";
+        private static readonly string indexName = "indexname";
         static void Main(string[] args)
         {
             var serviceClient = CreateSearchServiceClient();
